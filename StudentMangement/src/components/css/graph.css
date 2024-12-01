@@ -1,0 +1,68 @@
+.wrapperGraph{
+    height: 30vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+    
+}
+.contentGraph{
+    background-color: #273142;
+    height: 100%;
+    border-radius: 1vw;
+    width: 100%;
+    display: flex;
+    margin: 4.8vw 1.8vw;
+    padding: 1vw 0 3vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.headingContentGraph{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainHeadingContentGraph{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+    font-size: 1.2vw;
+}
+.designMonthHeadingContentGraph{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2.5vw;
+    width: 8vw;
+    border-radius: 5px;
+
+    background-color: #323D4E;
+}
+.monthHeadingContentGraph{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5vw;
+}
+.nameMonthHeadingContentGraph{
+    font-size: 1.1vw;
+}
+.graphcontentGraph img:nth-child(1){
+    z-index: 1;
+    height: 20vw;
+    position: relative;
+}
+.graphcontentGraph img:nth-child(2){
+    height: 15vw;
+    z-index: 2;
+    position: absolute;
+    left: 19vw;
+}

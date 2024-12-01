@@ -1,0 +1,64 @@
+
+.wrapperSidepanel{
+    height: 100%;
+    width: 100%;
+    background-color: #273142;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logoSidepanel{
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+.logoSidepanel img{
+    height: 1.5vw;
+}
+.contentSidepanel{
+    display: flex;
+    flex-direction: column;
+}
+.maincontentSidepanel, .accountcontentSidepanel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.wrapperdivButtonsidepanel{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+}
+.designdivButtonsidepanel{
+    height: 3vw;
+    width: 0.5vw;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.divButtonsidepanel{
+    height: 3vw;
+    width: 9vw;
+    background: none;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2.5vw;
+    margin-right: 2vw;
+    font-size: 1.08vw;
+}
+.wrapperdivButtonsidepanel:hover .designdivButtonsidepanel{
+    background-color: #4880FF;
+}
+.wrapperdivButtonsidepanel:hover .divButtonsidepanel{
+    background-color: #4880FF;
+}
+.designcontentSidepanel{
+    height: 0.01vw;
+    width: 100%;
+    margin: 1vw 0vw;
+    background-color: #e0e0e024;
+    margin: 0.5vw 0;
+}

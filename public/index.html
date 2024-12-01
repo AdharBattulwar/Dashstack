@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="innerwrapper">
+            <div class="left">
+                <img src="./Images/Filing system-rafiki.png" alt="images">
+            </div>
+            <div class="right">
+                <div class="formDiv">
+                    <form class="form" action="/signup" method="post">
+                    <div class="navbarForm">
+                        <h4 id="regestration">Registration</h4>
+                        <div class="language">
+                            <div class="langButton">En</div>
+                            <div class="langButton">ही</div>
+                        </div> 
+                    </div>
+                    <div id="designBar"></div>
+                    <div class="name">
+                        <div id="firstName">
+                            <h5>First Name</h5>
+                            <input type="text" class="inputbox" id="firstname" name="firstname" placeholder="Enter First Name" required>
+                        </div>
+                        <div id="lastName">
+                            <h5>Last Name</h5>
+                            <input type="text" class="inputbox" id="lastname" name="lastname" placeholder="Enter Last name" required>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <div id="prnNo">
+                            <h5>PRN Number</h5>
+                            <input type="text" class="inputbox" id="prn" name="prn" placeholder="Enter Registration Number" required>
+                        </div>
+                        <div id="rollNo">
+                            <h5>Roll Number</h5>
+                            <input type="text" class="inputbox" id="rollno" name="rollno" placeholder="Enter Roll Number" required>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div id="email">
+                            <h5>Email</h5>
+                            <input type="email" class="inputbox" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div id="phoneNo">
+                            <h5>Phone Number</h5>
+                            <input type="tel" class="inputbox" id="PhoneNo" name="PhoneNo" placeholder="Enter your PhoneNo" pattern="[0-9]{10}">
+                        </div>
+                    </div>
+                    <div class="address">
+                        <div id="Department">
+                            <h5>Domain</h5>
+                            <input type="text" class="inputbox" id="department" name="department" placeholder="Enter Your Domain" required>
+                        </div>
+                        <div id="home">
+                            <h5>Address</h5>
+                            <input type="text" class="inputbox" id="address" name="address" placeholder="Address" required>
+                        </div>
+                    </div>
+                        <!-- <br>
+                        <input type="text" class="inputbox" id="year" name="year" placeholder="year" required>
+                        <input type="text" class="inputbox" id="College" name="college" placeholder="College" required>
+                        <br> -->
+                        <input type="submit" class="inputbox" id="submit" value="Submit">
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+@font-face {
+    font-family: redhat;
+    src: url(./font/RedHatDisplay-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: "redhat";
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(235deg,rgb(199,216,242) 0%,rgb(57,146,255) 100%);
+    height: 100vh;
+    width: 100vw;
+    gap: 4vw;
+}
+.innerwrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vw;
+    width: 75vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: 0px solid black;
+}
+.left{
+height: 100%;
+width: 100%;
+overflow: hidden;
+display: flex;
+flex-shrink: 2;
+align-items: center;
+justify-content: center;
+border-top-left-radius: 1vw;
+border-bottom-left-radius: 1vw;
+}
+img{
+    padding: 0;
+    margin: 0;
+    height: 80%;
+    width: 120%;
+    position: relative;
+    left: 1.5vw;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    background-size: contain;
+}
+.right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    justify-content: center;
+}
+.formDiv{
+    height: 34vw;
+    width: 40vw;
+    background: none;
+    border: 0 solid;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.navbarForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbarForm h4{
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.langButton{
+    /* background-color: rgb(57,146,255); */
+    padding: 0.2vw 0.4vw;
+    border: 1px solid rgb(57,146,255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.langButton:hover{
+    transform: scale(1.05);
+    transition: all 0.4s linear 0;
+}
+#designBar{
+    margin: 1.2vw 0; 
+    height: 0.3vw;
+    width: 8vw;
+    align-self: start;
+    background-color: rgb(57,146,255);
+    border-radius: 1vw;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 1vw;
+}
+.name #firstName,#lastName{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+.name input{
+    font-size: 0.8vw;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 1vw;
+}
+.details #prnNo,#rollNo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+.details input{
+    font-size: 0.8vw;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 1vw;
+}
+.contact #email,#phoneNo{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+.contact input{
+    font-size: 0.8vw;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 1vw;
+}
+.address #home,#Department{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+}
+.address input{
+    font-size: 0.8vw;
+}
+.inputbox{
+    height: 2vw;
+    width: 17vw;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+}
+#submit{
+    height: 3vw;
+    width: 7vw;
+    background-color: rgb(57,146,255);
+    font-size: 1.1vw;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.6vw;
+}
+#submit:hover{
+
+    background-color: #F0EBE3;
+}

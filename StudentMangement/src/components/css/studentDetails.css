@@ -1,0 +1,178 @@
+.wrapperStudentDetails{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5vw;
+}
+.contentStudentDetails{
+    background-color: #273142;
+    height: 100%;
+    border-radius: 1vw;
+    width: 100%;
+    display: flex;
+    margin: 0vw 1.8vw;
+    padding: 3vw 0 3vw;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.headingContentStudentDetails{
+    height: 4vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainHeadingContentStudentDetails{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5vw;
+    font-size: 1.2vw;
+}
+.designMonthHeadingContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 2.5vw;
+    width: 8vw;
+    border-radius: 5px;
+    background-color: #323D4E;
+}
+.monthHeadingContentStudentDetails{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5vw;
+}
+.nameMonthHeadingContentStudentDetails{
+    font-size: 1.1vw;
+}
+.inputMainSearchbarContentStudentDetails{
+    border: none;
+    border-radius: 1.5vw;
+    width: 40vw;
+    color: #FFFFFF;
+    height: 1.9vw;
+    background-color: #323D4E;
+    padding-left: 3.5vw;
+    transition: none;
+    font-size: 1vw;
+}
+.mainDetailsContentStudentDetails{
+    height: 100%;
+    width: 100%;
+    margin-top: 2vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.tableMainDetailsContentStudentDetails{
+    height: auto;
+    width: 72vw;
+}
+.theadMainDetailsContentStudentDetails{
+    height: 4vw;
+    width: 72vw;
+    background-color: #323D4E;
+    border-radius: 1vw;
+    gap: 0px;
+    border: none;
+}
+.trowMainDetailsContentStudentDetails th{
+    gap: 0px;
+    border: none;
+    font-size: 1.2vw;
+}
+.tbodyMainDetailsContentStudentDetails{
+    height: auto;
+    width: 72vw;
+    border: none;
+}
+.trowTbodyMainDetailsContentStudentDetails{
+    max-height: 3vw;
+    width: 72vw;
+}
+.trowTbodyMainDetailsContentStudentDetails td{
+    height: 3vw;
+    width: 72vw;
+    border-bottom: 1px solid #97979738;
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .headingMainDetailsContentStudentDetails{
+    height: 4vw;
+    width: 72vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    background-color: #323D4E;
+    border-radius: 1vw;
+}
+.headingMainDetailsContentStudentDetails div{
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+.studentNameHeadingMainDetailsContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+}
+.branchHeadingMainDetailsContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13vw;
+}
+.prnHeadingMainDetailsContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+}
+.rollNoHeadingMainDetailsContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6vw;
+}
+.emailHeadingMainDetailsContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+.phoneHeadingMainDetailsContentStudentDetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9vw;
+} */
+

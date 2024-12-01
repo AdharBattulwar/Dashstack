@@ -1,0 +1,28 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #88888897;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+@font-face {
+  font-family: "Nunito Sans";
+  src: url("./Fonts/static/NunitoSans_7pt-Light.ttf");
+}
+*{
+  font-family: "Nunito Sans";
+  color: #FFFFFF;
+}
+.homepageApp{
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,58 @@
+.wrapperBoxStudentDetails{
+    height: 5vw;
+    width: 72vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 2vw;
+    border-bottom: 1px solid #97979738;
+}
+.wrapperBoxStudentDetails div{
+    height: 100%;
+    font-size: 1.15vw;
+    color: #D8D8D8;
+    flex-wrap: wrap;
+}
+.studentNameBoxStudentDetails{
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.branchBoxStudentDetails{
+    width: 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.prnBoxStudentDetails{
+    width: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rollnoBoxStudentDetails{
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.emailBoxStudentDetails{
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.phonenoBoxStudentDetails{
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
